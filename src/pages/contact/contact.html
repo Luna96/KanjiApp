@@ -1,0 +1,49 @@
+<!--
+  Generated template for the ContactPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Contact</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <form ion-grid fixed>
+    <p>If you have any question,suggest or complain about the about, send us an email!</p>
+    <ion-list ion-row>
+      <ion-item  ion-col col-12 col-sm-6>
+        <ion-label floating>Email</ion-label>
+        <ion-input type="email" name="email" clearInput="true"></ion-input>
+      </ion-item>
+
+      <ion-item ion-col col-12>
+        <ion-label floating>Comment</ion-label>
+        <ion-textarea name="comentario"></ion-textarea>
+      </ion-item>
+
+      <ion-item ion-col col-12>
+        <ion-label>I'm not a robot</ion-label>
+        <ion-checkbox required></ion-checkbox>
+      </ion-item>
+    </ion-list>
+
+    <div ion-col col-12 margin text-center>
+      <button type="submit" ion-button icon-left (click)="enviar()">
+        <ion-icon name="send"></ion-icon>
+        Enviar
+      </button>
+    </div>
+  </form>
+
+
+
+</ion-content>
