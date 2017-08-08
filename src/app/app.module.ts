@@ -9,6 +9,8 @@ import { ListPage } from '../pages/list/list';
 import { FIREBASE_CONFIG } from "./app.firebase.config";
 import { LoginPage } from '../pages/login/login';
 import { LessonsPage } from '../pages/lessons/lessons';
+import { LessonPage } from '../pages/lesson/lesson';
+import { KanjiPage } from '../pages/kanji/kanji';
 import { ContactPage } from '../pages/contact/contact';
 import { AboutPage } from '../pages/about/about';
 
@@ -21,6 +23,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     LoginPage,
     LessonsPage,
+    LessonPage,
+    KanjiPage,
     ContactPage,
     AboutPage
   ],
@@ -36,6 +40,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ListPage,
     LoginPage,
     LessonsPage,
+    LessonPage,
+    KanjiPage,
     ContactPage,
     AboutPage
   ],

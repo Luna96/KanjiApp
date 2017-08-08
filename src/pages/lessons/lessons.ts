@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
+import { LessonPage } from "../lesson/lesson";
 
 /**
  * Generated class for the LessonsPage page.
@@ -25,7 +26,7 @@ export class LessonsPage {
     this.items = [];
     for (let i = 1; i < 11; i++) {
       this.items.push({
-        title: 'Item ' + i,
+        title: 'Lesson ' + i,
         note: 'This is item #' + i
       });
     }
@@ -37,7 +38,7 @@ export class LessonsPage {
 
   itemTapped(event, item) {
     // That's right, we're pushing to ourselves!
-    this.navCtrl.push(LessonsPage, {
+    this.navCtrl.push(LessonPage, {
       item: item
     });
   }

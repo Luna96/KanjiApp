@@ -7,12 +7,19 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>Lesson</ion-title>
+    <ion-title>{{selectedItem.title}}</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
-<ion-content padding>
-
-</ion-content>
+<ion-content>
+    <ion-list>
+      <button ion-item *ngFor="let kanji of kanjis" (click)="itemTapped($event, kanji)" menuClose>
+          {{kanji.name}}
+      <div class="item-note" item-right>
+        {{kanji.kanji}}
+      </div>
+      </button>
+    </ion-list>
+  </ion-content>

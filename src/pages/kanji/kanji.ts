@@ -14,8 +14,10 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
   templateUrl: 'kanji.html',
 })
 export class KanjiPage {
-
+  selectedItem: any;
   constructor(public navCtrl: NavController, public navParams: NavParams) {
+    this.selectedItem = navParams.get('item');
+    console.log(this.selectedItem);
   }
 
   ionViewDidLoad() {
