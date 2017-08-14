@@ -17,17 +17,12 @@ import { KanjiPage } from "../kanji/kanji";
 
 export class LessonPage {
   selectedItem: any;
-  kanjis: Array<{name: string, kanji: string,}>;
+  kanjis: any;
 
   constructor(public navCtrl: NavController, public navParams: NavParams) {
     this.selectedItem = navParams.get('item');
 
-    this.kanjis = [
-      { name:'Day/Sun',kanji:'日'},
-      { name:'Month/Moon',kanji:'月'},
-      { name:'Tree',kanji:'木'},
-      { name:'Day/Sun',kanji:'日'},
-    ];
+    this.kanjis = this.selectedItem.kanjis;
   }
 
   ionViewDidLoad() {

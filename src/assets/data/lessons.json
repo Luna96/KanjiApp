@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "title": "Lesson 1",
+        "kanjis": [
+            { "name":"Sun/Day", "kanji": "日"},
+            { "name":"Moon/Month", "kanji": "月"},
+            { "name":"Tree", "kanji": "木"}
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Lesson 2",
+        "kanjis": [
+            { "name":"asdf", "kanji": "日"},
+            { "name":"asdf", "kanji": "月"},
+            { "name":"asdf", "kanji": "木"}
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Lesson 3",
+        "kanjis": [
+            { "name":"qwer", "kanji": "日"},
+            { "name":"qwer", "kanji": "月"},
+            { "name":"qwer", "kanji": "木"}
+        ]
+    }
+]
