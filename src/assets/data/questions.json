@@ -1,0 +1,116 @@
+{
+    "questions": [
+
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/hi.svg'/>",
+            "flashCardBack": "day, sun, Japan",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "day, sun, Japan", "correct": true, "selected": false},
+                {"answer": "moon, month", "correct": false, "selected": false},
+                {"answer": "tree, wood", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/tsuki.svg' />",
+            "flashCardBack": "moon, month",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "moon, month", "correct": true, "selected": false},
+                {"answer": "day, sun, Japan", "correct": false, "selected": false},
+                {"answer": "tree, wood", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/ki.svg' />",
+            "flashCardBack": "tree, wood",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "tree, wood", "correct": true, "selected": false},
+                {"answer": "river", "correct": false, "selected": false},
+                {"answer": "mountain", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/yama.svg'/>",
+            "flashCardBack": "mountain",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "mountain", "correct": true, "selected": false},
+                {"answer": "river", "correct": false, "selected": false},
+                {"answer": "tree, wood", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/sanbongawa.svg' />",
+            "flashCardBack": "river",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "river", "correct": true, "selected": false},
+                {"answer": "rice field", "correct": false, "selected": false},
+                {"answer": "vehicle, wheel, car", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/ta.svg' />",
+            "flashCardBack": "rice field",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "rice field", "correct": true, "selected": false},
+                {"answer": "mouth", "correct": false, "selected": false},
+                {"answer": "mountain", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/hito.svg'/>",
+            "flashCardBack": "human being, person",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "human being, person", "correct": true, "selected": false},
+                {"answer": "mouth", "correct": false, "selected": false},
+                {"answer": "rice field", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/kuchi.svg' />",
+            "flashCardBack": "mouth",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "mouth", "correct": true, "selected": false},
+                {"answer": "river", "correct": false, "selected": false},
+                {"answer": "rice field", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/kuruma.svg' />",
+            "flashCardBack": "vehicle, wheel, car",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "vehicle, wheel, car", "correct": true, "selected": false},
+                {"answer": "gate", "correct": false, "selected": false},
+                {"answer": "mouth", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/mongamae.svg' />",
+            "flashCardBack": "gate",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "gate", "correct": true, "selected": false},
+                {"answer": "vehicle, wheel, car", "correct": false, "selected": false},
+                {"answer": "mouth", "correct": false, "selected": false}
+            ]
+        }
+
+    ]
+}

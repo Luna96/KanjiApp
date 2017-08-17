@@ -14,11 +14,20 @@ import { LessonPage } from '../pages/lesson/lesson';
 import { KanjiPage } from '../pages/kanji/kanji';
 import { ContactPage } from '../pages/contact/contact';
 import { AboutPage } from '../pages/about/about';
+import { QuizzesListPage } from "../pages/quizzes-list/quizzes-list";
+import { QuizzPage } from '../pages/quizz/quizz';
+import { KunyomiQuizzPage } from '../pages/kunyomi-quizz/kunyomi-quizz';
+import { OnyomiQuizzPage } from '../pages/onyomi-quizz/onyomi-quizz';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { LessonsProvider } from '../providers/lessons/lessons';
 import { KanjiProvider } from '../providers/kanji/kanji';
+import { QuizzDataProvider } from '../providers/quizz-data/quizz-data';
+import { OnyomiDataProvider } from '../providers/onyomi-data/onyomi-data';
+import { KunyomiDataProvider } from '../providers/kunyomi-data/kunyomi-data';
+import { FlashCardComponent } from "../components/flash-card/flash-card";
+import { LessonsquizzProvider } from '../providers/lessonsquizz/lessonsquizz';
 
 @NgModule({
   declarations: [
@@ -29,7 +38,8 @@ import { KanjiProvider } from '../providers/kanji/kanji';
     LessonPage,
     KanjiPage,
     ContactPage,
-    AboutPage
+    AboutPage,
+    QuizzesListPage
   ],
   imports: [
     BrowserModule,
@@ -47,14 +57,19 @@ import { KanjiProvider } from '../providers/kanji/kanji';
     LessonPage,
     KanjiPage,
     ContactPage,
-    AboutPage
+    AboutPage,
+    QuizzesListPage,
   ],
   providers: [
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
     LessonsProvider,
-    KanjiProvider
+    KanjiProvider,
+    QuizzDataProvider,
+    OnyomiDataProvider,
+    KunyomiDataProvider,
+    LessonsquizzProvider,
   ]
 })
 export class AppModule {}

@@ -3,27 +3,85 @@
         "id": 1,
         "title": "Lesson 1",
         "kanjis": [
-            { "name":"Sun/Day", "kanji": "日", "file":"sun-day.json"},
-            { "name":"Moon/Month", "kanji": "月", "file":"moon-month.json"},
-            { "name":"Tree", "kanji": "木", "file":"tree.json"}
+            { "name":"Sun/Day", "kanji": "日"},
+            { "name":"Moon/Month", "kanji": "月"},
+            { "name":"Tree", "kanji": "木"},
+            { "name":"Mountain", "kanji": "山"},
+            { "name":"River", "kanji": "川"},
+            { "name":"Rice Field", "kanji": "田"},
+            { "name":"Person", "kanji": "人"},
+            { "name":"Mouth", "kanji": "口"},
+            { "name":"Vehicle/Wheel", "kanji": "車"},
+            { "name":"Gate", "kanji": "門"}
         ]
     },
     {
         "id": 2,
         "title": "Lesson 2",
         "kanjis": [
-            { "name":"asdf", "kanji": "日", "file":"sun-day.json"},
-            { "name":"asdf", "kanji": "月", "file":"sun-day.json"},
-            { "name":"asdf", "kanji": "木", "file":"sun-day.json"}
+            { "name":"Fire", "kanji": "火"},
+            { "name":"Water", "kanji": "水"},
+            { "name":"Gold/Money", "kanji": "金"},
+            { "name":"Ground/Earth", "kanji": "土"},
+            { "name":"Child", "kanji": "子"},
+            { "name":"Woman/Female", "kanji": "女"},
+            { "name":"Study", "kanji": "学"},
+            { "name":"Live/Birth", "kanji": "生"},
+            { "name":"Ahead/Previous", "kanji": "先"},
+            { "name":"Private/I/Me", "kanji": "私"}
         ]
     },
     {
         "id": 3,
         "title": "Lesson 3",
         "kanjis": [
-            { "name":"qwer", "kanji": "日", "file":"sun-day.json"},
-            { "name":"qwer", "kanji": "月", "file":"sun-day.json"},
-            { "name":"qwer", "kanji": "木", "file":"sun-day.json"}
+            { "name":"One", "kanji": "一"},
+            { "name":"Two", "kanji": "二"},
+            { "name":"Three", "kanji": "三"},
+            { "name":"Four", "kanji": "四"},
+            { "name":"Five", "kanji": "五"},
+            { "name":"Six", "kanji": "六"},
+            { "name":"Seven", "kanji": "七"},
+            { "name":"Eight", "kanji": "八"},
+            { "name":"Nine", "kanji": "九"},
+            { "name":"Ten", "kanji": "十"},
+            { "name":"Hundred", "kanji": "百"},
+            { "name":"Thousand", "kanji": "千"},
+            { "name":"Ten Tousand/All,Every", "kanji": "万"},
+            { "name":"Circle/Yen", "kanji": "円"},
+            { "name":"Year/Age", "kanji": "年"}
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Lesson 4",
+        "kanjis": [
+            { "name":"ABove,on/Up", "kanji": "上"},
+            { "name":"Under/Down", "kanji": "下"},
+            { "name":"Middle/Inside", "kanji": "中"},
+            { "name":"Large/Great", "kanji": "大"},
+            { "name":"Small", "kanji": "小"},
+            { "name":"Basis/Book/This", "kanji": "本"},
+            { "name":"Half", "kanji": "半"},
+            { "name":"Division,part/Minute", "kanji": "分"},
+            { "name":"Power/Ability", "kanji": "力"},
+            { "name":"What/How(Many)", "kanji": "何"}
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Lesson 5",
+        "kanjis": [
+            { "name":"Bright/Clear", "kanji": "新"},
+            { "name":"Rest", "kanji": "休"},
+            { "name":"Body", "kanji": "体"},
+            { "name":"Like/Favorable", "kanji": "好"},
+            { "name":"Man/Male", "kanji": "男"},
+            { "name":"Wood/Grove", "kanji": "林"},
+            { "name":"Forest", "kanji": "森"},
+            { "name":"Between/Interval", "kanji": "間"},
+            { "name":"Cultivated Field", "kanji": "畑"},
+            { "name":"Rock", "kanji": "岩"}
         ]
     }
 ]

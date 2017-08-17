@@ -1,0 +1,18 @@
+[
+    {
+        "id": 1,
+        "title": "Lesson 1",
+        "kanjis": [
+            { "name":"Sun/Day", "kanji": "日"},
+            { "name":"Moon/Month", "kanji": "月"},
+            { "name":"Tree", "kanji": "木"},
+            { "name":"Mountain", "kanji": "山"},
+            { "name":"River", "kanji": "川"},
+            { "name":"Rice Field", "kanji": "田"},
+            { "name":"Person", "kanji": "人"},
+            { "name":"Mouth", "kanji": "口"},
+            { "name":"Vehicle/Wheel", "kanji": "車"},
+            { "name":"Gate", "kanji": "門"}
+        ]
+    }
+]

@@ -1,0 +1,116 @@
+{
+    "questions": [
+
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/hi.svg'/>",
+            "flashCardBack": "ニチ、ジツ",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "ニチ、ジツ", "correct": true, "selected": false},
+                {"answer": "ゲツ、ガツ", "correct": false, "selected": false},
+                {"answer": "ボク、モク", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/tsuki.svg' />",
+            "flashCardBack": "ゲツ、ガツ",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "ゲツ、ガツ", "correct": true, "selected": false},
+                {"answer": "ニチ、ジツ", "correct": false, "selected": false},
+                {"answer": "ボク、モク", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/ki.svg' />",
+            "flashCardBack": "ボク、モク",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "ボク、モク", "correct": true, "selected": false},
+                {"answer": "ニチ、ジツ", "correct": false, "selected": false},
+                {"answer": "ゲツ、ガツ", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/yama.svg'/>",
+            "flashCardBack": "サン",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "サン", "correct": true, "selected": false},
+                {"answer": "セン", "correct": false, "selected": false},
+                {"answer": "デン", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/sanbongawa.svg' />",
+            "flashCardBack": "セン",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "セン", "correct": true, "selected": false},
+                {"answer": "サン", "correct": false, "selected": false},
+                {"answer": "デン", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/ta.svg' />",
+            "flashCardBack": "デン",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "デン", "correct": true, "selected": false},
+                {"answer": "サン", "correct": false, "selected": false},
+                {"answer": "セン", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/hito.svg'/>",
+            "flashCardBack": "ジン、ニン",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "ジン、ニン", "correct": true, "selected": false},
+                {"answer": "コウ、ク", "correct": false, "selected": false},
+                {"answer": "シャ", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/kuchi.svg' />",
+            "flashCardBack": "コウ、ク",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "コウ、ク", "correct": true, "selected": false},
+                {"answer": "ジン、ニン", "correct": false, "selected": false},
+                {"answer": "シャ", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/kuruma.svg' />",
+            "flashCardBack": "シャ",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "シャ", "correct": true, "selected": false},
+                {"answer": "ジン、ニン", "correct": false, "selected": false},
+                {"answer": "コウ、ク", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/mongamae.svg' />",
+            "flashCardBack": "モン",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "モン", "correct": true, "selected": false},
+                {"answer": "ジン、ニン", "correct": false, "selected": false},
+                {"answer": "コウ、ク", "correct": false, "selected": false}
+            ]
+        }
+
+    ]
+}

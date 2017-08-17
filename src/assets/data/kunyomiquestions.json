@@ -1,0 +1,116 @@
+{
+    "questions": [
+
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/hi.svg'/>",
+            "flashCardBack": "ひ、か",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "ひ、か", "correct": true, "selected": false},
+                {"answer": "つき", "correct": false, "selected": false},
+                {"answer": "き、こ", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/tsuki.svg' />",
+            "flashCardBack": "つき",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "つき", "correct": true, "selected": false},
+                {"answer": "ひ、か", "correct": false, "selected": false},
+                {"answer": "き、こ", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/ki.svg' />",
+            "flashCardBack": "き、こ",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "き、こ", "correct": true, "selected": false},
+                {"answer": "ひ、か", "correct": false, "selected": false},
+                {"answer": "つき", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/yama.svg'/>",
+            "flashCardBack": "やま",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "やま", "correct": true, "selected": false},
+                {"answer": "かわ", "correct": false, "selected": false},
+                {"answer": "た", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/sanbongawa.svg' />",
+            "flashCardBack": "かわ",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "かわ", "correct": true, "selected": false},
+                {"answer": "やま", "correct": false, "selected": false},
+                {"answer": "た", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/ta.svg' />",
+            "flashCardBack": "た",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "た", "correct": true, "selected": false},
+                {"answer": "やま", "correct": false, "selected": false},
+                {"answer": "かわ", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/hito.svg'/>",
+            "flashCardBack": "ひと",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "ひと", "correct": true, "selected": false},
+                {"answer": "くち", "correct": false, "selected": false},
+                {"answer": "かど", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/kuchi.svg' />",
+            "flashCardBack": "くち",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "くち", "correct": true, "selected": false},
+                {"answer": "ひと", "correct": false, "selected": false},
+                {"answer": "かど", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/kuruma.svg' />",
+            "flashCardBack": "くるま",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "くるま", "correct": true, "selected": false},
+                {"answer": "ひと", "correct": false, "selected": false},
+                {"answer": "くち", "correct": false, "selected": false}
+            ]
+        },
+        {
+            "flashCardFront": "<img src='https://media.kanjialive.com/radical_character/mongamae.svg' />",
+            "flashCardBack": "かど",
+            "flashCardFlipped": false,
+            "questionText": "Meaning",
+            "answers": [
+                {"answer": "かど", "correct": true, "selected": false},
+                {"answer": "ひと", "correct": false, "selected": false},
+                {"answer": "くち", "correct": false, "selected": false}
+            ]
+        }
+
+    ]
+}

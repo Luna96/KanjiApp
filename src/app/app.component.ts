@@ -10,6 +10,7 @@ import { RegisterPage } from '../pages/register/register';
 import { LessonsPage } from '../pages/lessons/lessons';
 import { ContactPage } from '../pages/contact/contact';
 import { AboutPage } from '../pages/about/about';
+import { QuizzesListPage } from '../pages/quizzes-list/quizzes-list';
 
 @Component({
   templateUrl: 'app.html'
@@ -28,6 +29,7 @@ export class MyApp {
     this.pages = [
       { title:'Home',component:HomePage, icon:'home'},
       { title:'Lessons',component:LessonsPage, icon:'book'},
+      { title:'Quizzes',component:QuizzesListPage, icon:'school'},
       { title:'Contact',component:ContactPage, icon:'mail'},
       { title:'About',component:AboutPage, icon:'information-circle'}
     ];
