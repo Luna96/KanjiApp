@@ -18,6 +18,7 @@ import { AboutPage } from '../pages/about/about';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { LessonsProvider } from '../providers/lessons/lessons';
+import { KanjiProvider } from '../providers/kanji/kanji';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { LessonsProvider } from '../providers/lessons/lessons';
     StatusBar,
     SplashScreen,
     {provide: ErrorHandler, useClass: IonicErrorHandler},
-    LessonsProvider
+    LessonsProvider,
+    KanjiProvider
   ]
 })
 export class AppModule {}

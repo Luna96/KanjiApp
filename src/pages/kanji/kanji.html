@@ -7,12 +7,65 @@
 <ion-header>
 
   <ion-navbar>
-    <ion-title>{{selectedItem.name}}</ion-title>
+    <ion-title *ngIf="kanji">{{kanji.kanji.meaning.english}}</ion-title>
   </ion-navbar>
 
 </ion-header>
 
 
 <ion-content padding>
+<ion-card *ngIf="kanji">
+  <ion-card-header>
+    Kanji
+  </ion-card-header>
+  <ion-card-content>
+      <video poster="{{kanji.kanji.video.poster}}" src="{{kanji.kanji.video.webm}}" type="video/webm"
+      width="90%" height="90" autoplay
+      (click)="toggleVideo()" #videoPlayer>
+      </video>
+  </ion-card-content>
+</ion-card>
+<ion-card *ngIf="kanji">
+  <ion-card-header>
+    Info
+  </ion-card-header>
+  <ion-card-content>
+    <h3>Meaning</h3>
+    <p>{{kanji.kanji.meaning.english}}</p>
+    <h3>Onyomi</h3>
+    <p>{{kanji.kanji.onyomi.katakana}}</p>
+    <h3>Kunyomi</h3>
+    <p>{{kanji.kanji.kunyomi.hiragana}}</p>
+    <h3>Strokes</h3>
+    <p>{{kanji.kanji.strokes.count}}</p>
+    <h3>Grade</h3>
+    <p>{{kanji.references.grade}}</p>
+  </ion-card-content>
+</ion-card>
 
+<ion-card *ngIf="kanji">
+  <ion-card-header>
+    Examples
+  </ion-card-header>
+  <ion-card-content>
+    <ion-list no-lines>
+        <ion-item *ngFor="let example of kanji.examples" menuClose>
+            {{example.japanese}}
+            <br>
+            {{example.meaning.english}}
+            <br>
+
+            <audio #audioPlayer controls>
+                <source type="audio/ogg" preload="auto" src="{{example.audio.opus}}">
+                <source type="audio/aac" preload="auto" src="{{example.audio.acc}}">
+                <source type="audio/ogg" preload="auto" src="{{example.audio.ogg}}">
+                <source type="audio/mp3" preload="auto" src="{{example.audio.mp3}}">
+            </audio>
+           <!-- <button ion-button item-end icon-only (click)="toggleAudio()">
+                <ion-icon name="play"></ion-icon>
+            </button> -->
+        </ion-item>
+    </ion-list>
+  </ion-card-content>
+</ion-card>
 </ion-content>

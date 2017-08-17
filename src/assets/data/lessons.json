@@ -3,27 +3,27 @@
         "id": 1,
         "title": "Lesson 1",
         "kanjis": [
-            { "name":"Sun/Day", "kanji": "日"},
-            { "name":"Moon/Month", "kanji": "月"},
-            { "name":"Tree", "kanji": "木"}
+            { "name":"Sun/Day", "kanji": "日", "file":"sun-day.json"},
+            { "name":"Moon/Month", "kanji": "月", "file":"moon-month.json"},
+            { "name":"Tree", "kanji": "木", "file":"tree.json"}
         ]
     },
     {
         "id": 2,
         "title": "Lesson 2",
         "kanjis": [
-            { "name":"asdf", "kanji": "日"},
-            { "name":"asdf", "kanji": "月"},
-            { "name":"asdf", "kanji": "木"}
+            { "name":"asdf", "kanji": "日", "file":"sun-day.json"},
+            { "name":"asdf", "kanji": "月", "file":"sun-day.json"},
+            { "name":"asdf", "kanji": "木", "file":"sun-day.json"}
         ]
     },
     {
         "id": 3,
         "title": "Lesson 3",
         "kanjis": [
-            { "name":"qwer", "kanji": "日"},
-            { "name":"qwer", "kanji": "月"},
-            { "name":"qwer", "kanji": "木"}
+            { "name":"qwer", "kanji": "日", "file":"sun-day.json"},
+            { "name":"qwer", "kanji": "月", "file":"sun-day.json"},
+            { "name":"qwer", "kanji": "木", "file":"sun-day.json"}
         ]
     }
 ]
